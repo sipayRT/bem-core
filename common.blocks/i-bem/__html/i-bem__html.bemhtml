@@ -3,8 +3,10 @@ oninit(function(exports) {
 var BEM_ = {},
     toString = Object.prototype.toString,
     isArray = Array.isArray || function(obj) {
+// REVIEW: двойные кавычки?
         return toString.call(obj) === "[object Array]";
     },
+// REVIEW: надо это поближе перенести к самой функции isShortTag
     SHORT_TAGS = { // хэш для быстрого определения, является ли тэг коротким
         area : 1, base : 1, br : 1, col : 1, command : 1, embed : 1, hr : 1, img : 1,
         input : 1, keygen : 1, link : 1, meta : 1, param : 1, source : 1, wbr : 1 };
@@ -56,6 +58,7 @@ function buildElemClass(block, name, modName, modVal, buffer) {
 
 }
 
+// REVIEW: Надо отказаться от этого копипаста из старого BEM.INTERNAL и переделать на plain-вариант
 BEM.INTERNAL = {
 
     NAME_PATTERN : NAME_PATTERN,
@@ -206,11 +209,13 @@ function BEMContext(context, apply_) {
 
 BEMContext.prototype.isArray = isArray;
 
+// REVIEW: возможнс, этой функции не должно быть в прототипе
 BEMContext.prototype.isSimple = function isSimple(obj) {
     var t = typeof obj;
     return t === 'string' || t === 'number' || t === 'boolean';
 };
 
+// REVIEW: этой функции не должно быть в прототипе, так как она исключительно утилитарная
 BEMContext.prototype.isShortTag = function isShortTag(t) {
     return SHORT_TAGS.hasOwnProperty(t);
 };
@@ -223,6 +228,7 @@ BEMContext.prototype.extend = function extend(o1, o2) {
     return res;
 };
 
+// REVIEW: возможнс, этой функции не должно быть в прототипе
 BEMContext.prototype.identify = (function() {
     var cnt = 0,
         id = (+new Date()),
@@ -235,6 +241,7 @@ BEMContext.prototype.identify = (function() {
     };
 })();
 
+// REVIEW: кажется, этих функций не должно быть в прототипе, так как они исключительно утилитарные
 BEMContext.prototype.xmlEscape = buildEscape('[&<>]');
 BEMContext.prototype.attrEscape = buildEscape('["&<>]');
 
@@ -428,11 +435,13 @@ def()(function() {
                 '"');
         }
 
+// REVIEW: следующие две строчки можно объединить в одну
         var attrs = apply('attrs');
         attrs = this._.extend(attrs, v.attrs); // NOTE: возможно стоит делать массив, чтобы потом быстрее сериализовывать
         if(attrs) {
             var name; // TODO: разобраться с OmetaJS и YUI Compressor
             for(name in attrs) {
+// REVIEW: надо заменить на typeof attrs[name] === 'undefined'
                 if (attrs[name] === undefined) continue;
                 buf.push(' ', name, '="', this._.attrEscape(attrs[name]), '"');
             }
