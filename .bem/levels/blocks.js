@@ -22,7 +22,8 @@ exports.getTechs = function() {
         'examples',
         'vanilla.js',
         'browser.js',
-        'node.js'
+        'node.js',
+        'browser.js+bemhtml'
     ].forEach(function(name) {
         techs[name] = join(PRJ_TECHS, name + '.js');
     });
