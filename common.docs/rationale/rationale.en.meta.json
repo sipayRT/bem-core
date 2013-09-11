@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "BEMHTML: short overview, capabilities, comparison with other template engines.",
     "thumbnail": "",
-    "author": "Yelena Jetpyspayeva",
+    "author": ["jetpyspayeva-yelena"],
     "tags": ["BEMHTML"],
-    "category": ["article"],
-    "translator": "Aleksandra Nekhaieva",
+    "categories": ["article"],
+    "translator": ["nekhaieva-aleksandra"],
     "url": "/common.docs/rationale/",
     "type": "articles",
     "slug": ""

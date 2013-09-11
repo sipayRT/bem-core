@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "Руководство рассказывает как попробовать шаблонизатор BEMHTML и понять основные принципы работы с ним, пройдя семь простых шагов",
     "thumbnail": "",
-    "author": "Елена Джетпыспаева",
+    "author": ["jetpyspayeva-yelena"],
     "tags": ["BEMHTML"],
-    "category": ["article"],
-    "translator": "",
+    "categories": ["article"],
+    "translator": [""],
     "url": "/common.docs/intro/",
     "type": "articles",
     "slug": ""

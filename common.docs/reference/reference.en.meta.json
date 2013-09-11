@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "BEMHTML-reference.",
     "thumbnail": "",
-    "author": "Kirill Maslinsky",
+    "author": ["maslinsky-kirill"],
     "tags": ["BEMHTML"],
-    "category": ["article"],
-    "translator": "Aleksandra Nekhaieva",
+    "categories": ["article"],
+    "translator": ["nekhaieva-aleksandra"],
     "url": "/common.docs/reference/",
     "type": "articles",
     "slug": ""

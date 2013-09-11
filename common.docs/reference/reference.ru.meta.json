@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "Cправочное руководство по шаблонизатору BEMHTML.",
     "thumbnail": "",
-    "author": "Маслинский Кирилл",
+    "author": ["maslinsky-kirill"],
     "tags": ["BEMHTML"],
-    "category": ["article"],
-    "translator": "",
+    "categories": ["article"],
+    "translator": [""],
     "url": "/common.docs/reference/",
     "type": "articles",
     "slug": ""

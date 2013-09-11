@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "BEMHTML: краткая информация, возможности, сравнение с другими шаблонизаторами.",
     "thumbnail": "",
-    "author": "Елена Джетпыспаева",
+    "author": ["jetpyspayeva-yelena"],
     "tags": ["BEMHTML"],
-    "category": ["article"],
-    "translator": "",
+    "categories": ["article"],
+    "translator": [""],
     "url": "/common.docs/rationale/",
     "type": "articles",
     "slug": ""
