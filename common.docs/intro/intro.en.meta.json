@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "This guide helps try the BEMHTML Templaiting Engine and understand the basics of working with it in 7 simple steps",
     "thumbnail": "",
-    "author": ["jetpyspayeva-yelena"],
+    "authors": ["jetpyspayeva-yelena"],
     "tags": ["BEMHTML"],
     "categories": ["article"],
-    "translator": ["nekhaieva-aleksandra"],
+    "translators": ["nekhaieva-aleksandra"],
     "url": "/common.docs/intro/",
     "type": "articles",
     "slug": ""

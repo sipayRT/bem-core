@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "Cache parts of BEMHTML page by declaring cache keys in BEMJSON",
     "thumbnail": "",
-    "author": ["jetpyspayeva-yelena"],
+    "authors": ["jetpyspayeva-yelena"],
     "tags": ["API"],
     "categories": ["article"],
-    "translator": "Yelena Jetpyspayeva",
+    "translators": ["jetpyspayeva-yelena"],
     "url": "/common.docs/bemhtml-cache-experimental/",
     "type": "articles",
     "slug": ""
