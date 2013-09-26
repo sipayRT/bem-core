@@ -10,5 +10,6 @@
     "translators": [""],
     "url": "/common.docs/bem-core/",
     "type": "tools",
-    "slug": ""
+    "slug": "",
+    "root": "true"
 }

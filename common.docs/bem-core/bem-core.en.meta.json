@@ -10,5 +10,6 @@
     "translators": ["stepanova-varvara"],
     "url": "/common.docs/bem-core/",
     "type": "tools",
-    "slug": ""
+    "slug": "",
+    "root": "true"
 }
