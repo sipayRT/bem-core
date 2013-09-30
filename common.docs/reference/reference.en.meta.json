@@ -6,7 +6,7 @@
     "thumbnail": "",
     "authors": ["maslinsky-kirill"],
     "tags": ["BEMHTML"],
-    "categories": [],
+    "categories": [{"name": "BEMHTML", "url": "bemhtml"}],
     "translators": ["nekhaieva-aleksandra"],
     "url": "/common.docs/reference/",
     "type": "articles",

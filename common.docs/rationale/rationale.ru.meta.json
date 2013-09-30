@@ -6,7 +6,7 @@
     "thumbnail": "",
     "authors": ["jetpyspayeva-yelena"],
     "tags": ["BEMHTML"],
-    "categories": [],
+    "categories": [{"name": "BEMHTML", "url": "bemhtml"}],
     "translators": [""],
     "url": "/common.docs/rationale/",
     "type": "articles",
