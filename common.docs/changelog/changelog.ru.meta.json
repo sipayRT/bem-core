@@ -9,6 +9,6 @@
     "categories": [{"name": "BEM core", "url": "bem-core"}],
     "translators": [""],
     "url": "/common.docs/changelog/",
-    "type": "tools",
+    "type": "libs",
     "slug": ""
 }

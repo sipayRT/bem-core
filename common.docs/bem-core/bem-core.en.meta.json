@@ -9,7 +9,7 @@
     "categories": [{"name": "BEM core", "url": "bem-core"}],
     "translators": ["stepanova-varvara"],
     "url": "/common.docs/bem-core/",
-    "type": "tools",
+    "type": "libs",
     "slug": "",
     "root": "true"
 }
