@@ -6,9 +6,9 @@
     "thumbnail": "",
     "authors": ["jetpyspayeva-yelena"],
     "tags": ["BEMHTML"],
-    "categories": [{"name": "BEMHTML", "url": "bemhtml"}],
+    "categories": [{"name": "bem core/BEMHTML", "url": "bem-core/bemhtml"}],
     "translators": ["nekhaieva-aleksandra"],
     "url": "/common.docs/rationale/",
-    "type": "articles",
+    "type": "libs",
     "slug": ""
 }

@@ -5,9 +5,9 @@
     "summary": "Cправочное руководство по шаблонизатору BEMHTML.",
     "thumbnail": "",
     "authors": ["maslinsky-kirill"],
-    "categories": [{"name": "BEMHTML", "url": "bemhtml"}],
+    "categories": [{"name": "bem core/BEMHTML", "url": "bem-core/bemhtml"}],
     "translators": [""],
     "url": "/common.docs/reference/",
-    "type": "articles",
+    "type": "libs",
     "slug": ""
 }
