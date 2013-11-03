@@ -1,5 +1,5 @@
 {
-    "title": "BEMHTML-reference",
+    "title": "BEMHTML-Reference",
     "createDate": "02-09-2013",
     "editDate": "",
     "summary": "BEMHTML-reference.",
@@ -7,7 +7,7 @@
     "authors": ["maslinsky-kirill"],
     "tags": ["BEMHTML"],
     "categories": [
-        {"name": "bem core/1.0.0/BEMHTML", "url": "bem-core/1.0.0/bemhtml", "type": "libs"},
+        {"name": "bem-core/1.0.0/BEMHTML", "url": "bem-core/1.0.0/bemhtml", "type": "libs"},
         {"name": "Templating engines/BEMHTML", "url": "templating-engines/bemhtml", "type": "tools"}
     ],
     "translators": ["nekhaieva-aleksandra"],
